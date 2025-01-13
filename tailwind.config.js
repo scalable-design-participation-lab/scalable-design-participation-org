@@ -8,4 +8,14 @@ export default {
     './app.vue',
     './error.vue',
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [
+          'DM Sans',
+          ...require('tailwindcss/defaultTheme').fontFamily.sans,
+        ],
+      }
+    },
+  },
 }
