@@ -1,12 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@nuxt/ui'
   ],
+
+  extends: [
+    '@nuxt/ui-pro'
+  ],
+
   pinia: {
     autoImports: ['defineStore', 'storeToRefs'],
-  }
+  },
+
+  tailwindcss: {
+    exposeConfig: true
+  },
+
+  ui: {
+    icons: ['heroicons']
+  },
+
+  compatibilityDate: '2025-01-13'
 })
