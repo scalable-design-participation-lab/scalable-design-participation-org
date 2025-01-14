@@ -28,7 +28,6 @@ useSeoMeta({
 
 <template>
   <div class="min-h-screen bg-white dark:bg-zinc-950">
-    <ThemeToggle />
     <NuxtPage />
   </div>
 </template>
