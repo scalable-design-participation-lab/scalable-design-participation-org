@@ -17,5 +17,5 @@ export interface Project {
   
   export interface Tile {
     title: string
-    description: string
+    description: string[]
   }
