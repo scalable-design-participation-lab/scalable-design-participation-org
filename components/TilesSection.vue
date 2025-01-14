@@ -3,11 +3,10 @@
     <div 
       v-for="(tile, index) in tiles" 
       :key="index"
-      class="p-8 border border-zinc-200 dark:border-zinc-700 md:w-56 min-h-full rounded-xl"
-      :class="{ 'md:pb-32': index === 0 }"
+      class="p-6 pb-10 border border-zinc-200 dark:border-zinc-700 md:w-56 min-h-full rounded-xl"
     >
       <h2 class="font-semibold text-xl mb-2 leading-tight dark:text-white" v-html="tile.title"></h2>
-      <p :class="{'md:text-sm': index === 0, 'text-sm': index !== 0}" class="leading-tight dark:text-gray-300">
+      <p class="text-sm leading-tight dark:text-gray-300">
         {{ tile.description }}
       </p>
     </div>
@@ -31,8 +30,8 @@
       description: 'Through strong community partnerships, participatory design approaches, and with the support of my collaborative computing platforms, we explore the essential role that community-engaged research has in the development of AI models to collect and produce civic data of under-represented populations in the Majority World and to contextually study resident-led issues.'
     },
     {
-      title: '<span class="md:block">Geospatial Computing</span>',
-      description: 'This work brings forth the potential for technology to focus on pluralism, collaboration, and transparency in the service of justice in the built environment. Our interfaces focuse on drawing as an intuitive interface between citizens, spatial data, and planning practitioners, coupled with novel computational representations, modes of interaction, and computational interfaces, to encourage public participation in data-driven analysis and design.'
+      title: 'Geospatial <span class="md:block">Computing</span>',
+      description: 'This work brings forth the potential for technology to focus on pluralism, collaboration, and transparency in the service of justice in the built environment. Our applications focus on drawing as an intuitive interface between citizens, spatial data, and planning practitioners, coupled with novel computational representations, modes of interaction, and interfaces, to encourage public participation in data-driven analysis and design.'
     }
   ]
 </script>
