@@ -1,3 +1,8 @@
+# Scalable Design Participation, Lab Website 2025
+
+Nuxt (Typescript), Nuxt UI Pro, Tailwind CSS
+Leonard Schrage, 2025
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
