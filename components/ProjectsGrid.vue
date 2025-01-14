@@ -19,6 +19,12 @@ const projects: Project[] = [
     tags: ['Software', '2020–today']
   },
   {
+    image: '/images/projects/hurtoma.jpg',
+    title: 'Drawing Participation: Гуртомá',
+    description: 'Interactive mapping for residents to restore neighborhoods and rivers in Ukraine',
+    tags: ['Software', '2024–today']
+  },
+  {
     image: '/images/projects/reblocking.jpg',
     title: 'Reblocking a Million Neighborhoods',
     description: 'Creating parcel data from satellite imagery for data-scarce environments through generative ensemble learning.',
