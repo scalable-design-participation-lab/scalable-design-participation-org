@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
@@ -11,11 +12,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          'DM Sans',
-          ...require('tailwindcss/defaultTheme').fontFamily.sans,
-        ],
-      }
+        sans: ['DM Sans', ...require('tailwindcss/defaultTheme').fontFamily.sans],
+      },
     },
-  },
+  }
 }

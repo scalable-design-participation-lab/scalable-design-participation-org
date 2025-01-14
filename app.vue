@@ -1,4 +1,4 @@
-<script>
+<script setup lang="ts">
 useHead({
   title: 'Scalable Design Participation Lab at Northeastern University',
   meta: [
@@ -11,7 +11,11 @@ useHead({
     { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon/apple-touch-icon.png' },
     { rel: 'manifest', href: '/favicon/site.webmanifest' },
   ],
-}),
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
+
 useSeoMeta({
   title: 'Scalable Design Participation Lab at Northeastern University',
   ogTitle: 'Scalable Design Participation Lab at Northeastern University',
@@ -23,5 +27,8 @@ useSeoMeta({
 </script>
 
 <template>
+  <div class="min-h-screen bg-white dark:bg-zinc-950">
+    <ThemeToggle />
     <NuxtPage />
+  </div>
 </template>

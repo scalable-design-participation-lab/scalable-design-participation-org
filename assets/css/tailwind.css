@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply font-medium;
-    }
+  :root {
+    scroll-behavior: smooth;
   }
+
+  body {
+    @apply font-medium;
+  }
+}
