@@ -17,7 +17,7 @@ useSeoMeta({
   ogTitle: 'Scalable Design Participation Lab at Northeastern University',
   description: 'Scalable Design Participation is a Research Lab at Northeastern University in Boston. We develop digital tools that enable large groups of people to shape their own environments.',
   ogDescription: 'Scalable Design Participation is a Research Lab at Northeastern University in Boston. We develop digital tools that enable large groups of people to shape their own environments.',
-  // ogImage: 'https://…',
+  ogImage: 'https://scalabledesignparticipation.org/images/cities/monterrey.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>
