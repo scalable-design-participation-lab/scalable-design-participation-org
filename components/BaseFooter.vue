@@ -23,7 +23,7 @@
     </div>
 
     <div class="flex justify-between place-items-end">
-      <div class="mt-12 md:mt-24 flex flex-col leading-tight">
+      <div class="mt-12 md:mt-24 text-md flex flex-col leading-tight">
         <a 
           v-for="link in navigationLinks" 
           :key="link" 
@@ -34,7 +34,7 @@
         </a>
       </div>
       <address 
-        class="mt-12 md:mt-24 leading-tight md:pr-2 not-italic dark:text-gray-300"
+        class="mt-12 md:mt-24 text-xs md:text-md leading-tight md:pr-2 not-italic dark:text-gray-300"
         v-html="address"
       />
     </div>
