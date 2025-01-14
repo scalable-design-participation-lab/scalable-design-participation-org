@@ -1,7 +1,7 @@
 <template>
   <div class="mx-7 md:w-8/12 md:max-w-[800px]">
-    <h1 class="mt-12 mb-2 text-3xl">About us</h1>
-    <p class="text-xl leading-tight mb-3">
+    <h1 class="mt-12 mb-2 text-2xl md:text-3xl">About us</h1>
+    <p class="text-lg md:text-xl leading-tight mb-3">
       We are 
       <span v-for="(member, index) in members" :key="member.name">
         <a 

@@ -10,8 +10,8 @@
         {{ tag }}
       </span>
     </div>
-    <h2 class="pt-2 text-xl dark:text-white">{{ title }}</h2>
-    <p class="pb-4 dark:text-gray-300">{{ description }}</p>
+    <h2 class="pt-2 md:text-xl dark:text-white">{{ title }}</h2>
+    <p class="pb-4 text-sm md:text-md dark:text-zinc-250">{{ description }}</p>
   </div>
 </template>
   

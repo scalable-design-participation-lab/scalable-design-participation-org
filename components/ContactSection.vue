@@ -1,10 +1,10 @@
 <template>
     <div class="mx-7 md:w-8/12 md:max-w-[800px]">
-      <h1 class="mt-12 mb-2 text-3xl">Let's talk</h1>
-      <p class="text-xl leading-tight">{{ description }}</p>
+      <h1 class="mt-12 mb-2 text-2xl md:text-3xl">Let's talk</h1>
+      <p class="text-lg md:text-xl leading-tight">{{ description }}</p>
       <div class="flex space-x-2 mt-6">
         <UButton
-          class="my-2 py-3 px-6 rounded-full flex place-self-start hover:bg-gray-300 text-md hover:text-black dark:hover:bg-zinc-700 dark:hover:text-white"
+          class="my-2 py-3 px-4 md:px-6 rounded-full flex place-self-start hover:bg-gray-300 text-md hover:text-black dark:hover:bg-zinc-700 dark:hover:text-white"
           color="black"
           :to="contactEmail"
         >

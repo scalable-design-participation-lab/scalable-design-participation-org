@@ -10,7 +10,7 @@
         <p 
           v-for="(paragraph, pIndex) in tile.description" 
           :key="pIndex"
-          class="text-sm leading-tight dark:text-gray-300"
+          class="text-sm leading-tight dark:text-zinc-250"
         >
           {{ paragraph }}
         </p>
