@@ -1,21 +1,21 @@
 <template>
-    <div class="mx-7 md:w-8/12 md:max-w-[800px]">
-      <div class="space-y-2">
-        <h1 class="mt-12 mb-2 text-3xl">{{ sections.bigPicture.title }}</h1>
-        <template v-for="(paragraph, index) in sections.bigPicture.paragraphs" :key="index">
-          <p class="text-xl leading-tight">{{ paragraph }}</p>
-        </template>
-      </div>
-      <div class="space-y-2">
-        <h1 class="mt-12 mb-2 text-3xl">{{ sections.approach.title }}</h1>
-        <template v-for="(paragraph, index) in sections.approach.paragraphs" :key="index">
-          <p class="text-xl leading-tight">{{ paragraph }}</p>
-        </template>
-      </div>
+  <div class="mx-7 md:w-8/12 md:max-w-[800px]">
+    <div class="space-y-2">
+      <h1 class="mt-12 mb-2 text-3xl">{{ sections.bigPicture.title }}</h1>
+      <template v-for="(paragraph, index) in sections.bigPicture.paragraphs" :key="index">
+        <p class="text-xl leading-tight">{{ paragraph }}</p>
+      </template>
     </div>
-  </template>
+    <div class="space-y-2">
+      <h1 class="mt-12 mb-2 text-3xl">{{ sections.approach.title }}</h1>
+      <template v-for="(paragraph, index) in sections.approach.paragraphs" :key="index">
+        <p class="text-xl leading-tight">{{ paragraph }}</p>
+      </template>
+    </div>
+  </div>
+</template>
   
-  <script setup lang="ts">
+<script setup lang="ts">
   interface Section {
     title: string
     paragraphs: string[]
@@ -43,4 +43,4 @@
       ]
     }
   }
-  </script>
+</script>

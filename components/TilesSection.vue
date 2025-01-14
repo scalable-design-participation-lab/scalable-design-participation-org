@@ -14,7 +14,7 @@
   </div>
 </template>
   
-  <script setup lang="ts">
+<script setup lang="ts">
   import type { Tile } from '~/types'
   
   const tiles: Tile[] = [
@@ -35,4 +35,4 @@
       description: 'This work brings forth the potential for technology to focus on pluralism, collaboration, and transparency in the service of justice in the built environment. Our interfaces focuse on drawing as an intuitive interface between citizens, spatial data, and planning practitioners, coupled with novel computational representations, modes of interaction, and computational interfaces, to encourage public participation in data-driven analysis and design.'
     }
   ]
-  </script>
+</script>
