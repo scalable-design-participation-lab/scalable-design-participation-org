@@ -2,7 +2,7 @@
   <div class="px-7 pt-12">
     <div class="flex justify-between items-center mb-8">
       <img
-      class="h-12 hover:animate-bounce"
+      class="h-10 md:h-12 hover:animate-bounce"
       src="/images/lab-logo.png"
       logo-alt="Scalable Design Participation Lab Logo"
     />
