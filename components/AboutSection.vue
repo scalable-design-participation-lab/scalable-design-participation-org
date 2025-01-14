@@ -10,7 +10,10 @@
           target="_blank" 
           class="hover:underline"
         >{{ member.name }}↗</a>
-        <span v-else>{{ member.name }}</span>{{ index < members.length - 1 ? ', ' : '.' }}
+        <span v-else>{{ member.name }}</span>{{ 
+          index < members.length - 2 ? ', ' : 
+          index === members.length - 2 ? ', and ' : '.' 
+        }}
       </span>
     </p>
     <p class="text-xl leading-tight">{{ description }}</p>
