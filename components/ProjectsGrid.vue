@@ -22,19 +22,22 @@ const projects: Project[] = [
     image: '/images/projects/hurtoma.jpg',
     title: 'Drawing Participation: Гуртомá',
     description: 'Interactive mapping for residents to restore neighborhoods and rivers in Ukraine',
-    tags: ['Software', '2024–today']
+    tags: ['Software', '2024–today'],
+    url: 'https://hurtoma.drawing-participation.org'
   },
   {
     image: '/images/projects/reblocking.jpg',
     title: 'Reblocking a Million Neighborhoods',
     description: 'Creating parcel data from satellite imagery for data-scarce environments through generative ensemble learning.',
-    tags: ['Software', '2021–today']
+    tags: ['Software', '2021–today'],
+    url: 'https://drawing-participation.org/'
   },
   {
     image: '/images/projects/open-sensing.jpg',
     title: 'Open Sensing',
     description: 'Open hardware and software for environmental sensing within local communities.',
-    tags: ['Hardware', '2023–today']
+    tags: ['Hardware', '2023–today'],
+    url: 'https://open-sensing.scalabledesignparticipation.org'
   },
   {
     image: '/images/projects/site-allocation.jpg',

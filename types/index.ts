@@ -1,9 +1,10 @@
 export interface Project {
-    image: string
-    title: string
-    description: string
-    tags: string[]
-  }
+  image: string
+  title: string
+  description: string
+  tags: string[]
+  url?: string
+}
   
   export interface TeamMember {
     name: string
