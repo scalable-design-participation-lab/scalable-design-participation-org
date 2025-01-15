@@ -28,7 +28,7 @@
           v-for="link in navigationLinks" 
           :key="link" 
           :href="getLinkHref(link)" 
-          class="hover:pl-2 dark:text-gray-300"
+          class="hover:translate-x-1 dark:text-gray-300"
         >
           {{ link }}
         </a>
