@@ -1,5 +1,5 @@
 <template>
-  <div class="border rounded-xl space-y-2 p-4 leading-tight dark:border-zinc-700">
+  <div class="border rounded-xl space-y-2 p-4 leading-tight dark:border-zinc-700 hover:scale-[0.98]">
     <img class="rounded-md" :src="image" :alt="title">
     <div class="flex space-x-1">
       <span 
