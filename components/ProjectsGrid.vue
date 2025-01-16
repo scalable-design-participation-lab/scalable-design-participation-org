@@ -55,7 +55,8 @@ const projects: Project[] = [
     image: '/images/projects/local-software.jpg',
     title: 'Local Software',
     description: 'CAD and GIS plugins to seamlessly connect design tools with spatial analysis.',
-    tags: ['Software', '2015–20']
+    tags: ['Software', '2015–20'],
+    url: 'https://plugins.qgis.org/plugins/LocalSoftware-QGIS/'
   },
   {
     image: '/images/projects/painting-with-data.jpg',
