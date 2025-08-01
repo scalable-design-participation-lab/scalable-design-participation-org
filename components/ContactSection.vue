@@ -15,6 +15,6 @@
   </template>
   
 <script setup lang="ts">
-  const description = 'We are open for collaboration and partnerships and would love to hear from you. We give global lectures about our work globally and are continuously looking for researchers, post-docs, PhD students and student co-ops with a focus on software design and development, computer vision and machine learning, computational urban science, and related fields.'
+  const description = 'We are open for collaboration and partnerships and would love to hear from you. We have preseneted our work internationally and are continuously looking for researchers, post-docs, PhD students and student co-ops with a focus on software design and development, computer vision and machine learning, computational urban science, and related fields.'
   const contactEmail = 'mailto:lab@scalabledesignparticipation.org'
 </script>
